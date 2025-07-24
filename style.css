@@ -1,27 +1,23 @@
 /* body{
-    background: red;
+    background: black;
 } */
- .coontainer{
+.coontainer {
     max-width: 1140px;
     margin: auto;
     padding: 0 15px;
     /* display: flex; */
- }
+}
 
-.main_font{
+.main_font {
     font-family: "Noto Serif", serif;
 }
 
-.margin_top{
-    margin-top: 200px;
-}
 
 @media screen and (max-width: 640px) {
-    *{
-        text-align: justify;
-    }
-    .coontainer{
+
+    .coontainer {
+        /* margin: auto; */
         padding: 0 7px;
     }
-    
+
 }
