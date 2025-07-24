@@ -1,22 +1,17 @@
-/* body{
-    background: black;
-} */
 .coontainer {
     max-width: 1140px;
     margin: auto;
     padding: 0 15px;
-    /* display: flex; */
+
 }
 
 .main_font {
     font-family: "Noto Serif", serif;
 }
 
-
 @media screen and (max-width: 640px) {
 
     .coontainer {
-        /* margin: auto; */
         padding: 0 7px;
     }
 
