@@ -26,8 +26,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="bg-gray-100">
+
+
+
     <header>
+
+        <!-- android icons as figma design for mobile device start-->
+        <div class="flex justify-between px-8 py-4 hidden max-sm:flex">
+            <span class="text-base font-semibold font-inter text-[#000000]">9:41</span>
+
+            <span>
+                <i class="fa-solid fa-chart-simple"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-battery-full"></i></span>
+        </div>
+        <!-- android icons as figma design for mobile device end-->
+
         <nav class="mt-8 max-sm:mt-3">
             <div class="coontainer flex justify-between items-center">
                 <h1 class="max-sm:w-[63px]">
@@ -187,9 +202,9 @@
             </div>
 
             <div
-                class="grid grid-cols-3 gap-x-6 gap-y-4 max-[770px]:grid-cols-1 max-[770px]:gap-x-0 max-[770px]:gap-y-[7px] mt-12 ">
+                class="grid grid-cols-3 gap-x-6 gap-y-6 max-[770px]:grid-cols-1 max-[770px]:gap-x-0 max-[770px]:gap-y-[7px] mt-12 ">
                 <div class="relative rounded-2xl overflow-hidden order-1 max-[770px]:order-1">
-                    <img src="assets/deal-bloom.png" alt="flower" class="w-full">
+                    <img src="assets/deal-bloom.png" alt="flower" class="h-full w-full">
                     <div
                         class="bg-[rgba(0,0,0,0.4)] absolute w-full h-full top-0 left-0 flex flex-col justify-center items-center text-center hover:bg-[rgba(0,0,0,0)]">
                         <p class="font-bold main_font text-[#FFFFFF] text-lg">60% Off | Bloom Plant</p>
@@ -199,7 +214,7 @@
                 </div>
 
                 <div class="relative rounded-2xl overflow-hidden order-3 max-[770px]:order-2 max-[770px]:rounded-none">
-                    <img src="assets/deal-ana.png" alt="flower" class="w-full">
+                    <img src="assets/deal-ana.png" alt="flower" class="h-full w-full">
                     <div
                         class="bg-[rgba(0,0,0,0.4)] absolute w-full h-full top-0 left-0 flex flex-col justify-center items-center text-center hover:bg-[rgba(0,0,0,0)]">
                         <p class="font-bold main_font text-[#FFFFFF] text-lg">30% Off | Ana Plant</p>
@@ -210,7 +225,7 @@
 
                 <div
                     class="relative rounded-2xl overflow-hidden order-2 row-span-2 col-span-2 max-[770px]:order-3 max-[770px]:col-span-1">
-                    <img src="assets/deal-zabo.png" alt="flower" class="w-full">
+                    <img src="assets/deal-zabo.png" alt="flower" class="h-full w-full">
                     <div
                         class="bg-[rgba(0,0,0,0.4)] absolute w-full h-full top-0 left-0 flex flex-col justify-center items-center text-center hover:bg-[rgba(0,0,0,0)]">
                         <p class="font-bold main_font text-[#FFFFFF] text-4xl max-[770px]:text-xl">25% Off | Zabo Plant
@@ -240,10 +255,54 @@
                 </div>
             </div>
         </article>
-
     </main>
 
+    <footer class="mt-4 py-12 pb-12 bg-[#FFFFFF] max-sm:mt-12 max-sm: pb-12 max-sm:py-0 max-sm:bg-gray-100 border-t">
+        <div class="coontainer grid grid-cols-3 gap-12 max-sm:grid-cols-1 max-sm:gap-2">
+            <div>
+                <img src="assets/logo.png" alt="logo" class="mb-6">
+                <p
+                    class="font-inter font-regular text-[#8987A1] text-[22px] max-sm:text-[14px] max-[920px]:text-[16px] max-[1024px]:text-[18px]">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            </div>
 
+            <div class="grid grid-cols-2 gap-4 max-sm:grid-cols-1 max-sm:gap-0">
+                <ul class="flex flex-col justify-around ps-8 max-sm:ps-0">
+                    <li class="max-sm:my-2"><a href="#"
+                            class="text-[#6B7280] text-base font-inter font-regular">Home</a></li>
+                    <li class="max-sm:my-2"><a href="#" class="text-[#6B7280] text-base font-inter font-regular">About
+                            Us</a></li>
+                    <li class="max-sm:my-2"><a href="#"
+                            class="text-[#6B7280] text-base font-inter font-regular">Blog</a></li>
+                    <li class="max-sm:my-2"><a href="#" class="text-[#6B7280] text-base font-inter font-regular">FQA</a>
+                    </li>
+                    <li class="max-sm:my-2"><a href="#" class="text-[#6B7280] text-base font-inter font-regular">Contact
+                            Us</a></li>
+                </ul>
+                <ul class="flex flex-col justify-around ps-8 max-sm:ps-0">
+                    <li class="max-sm:my-2"><a href="#"
+                            class="text-[#6B7280] text-base font-inter font-regular">Feature</a></li>
+                    <li class="max-sm:my-2"><a href="#"
+                            class="text-[#6B7280] text-base font-inter font-regular">Prising</a></li>
+                    <li class="max-sm:my-2"><a href="#" class="text-[#6B7280] text-base font-inter font-regular">Privacy
+                            Policy</a></li>
+                    <li class="max-sm:my-2"><a href="#" class="text-[#6B7280] text-base font-inter font-regular">Terms
+                            of Service</a></li>
+                    <li class="max-sm:my-2"><a href="#" class="text-[#6B7280] text-base font-inter font-regular">Help
+                            Center</a></li>
+                </ul>
+            </div>
+            <div class="flex justify-between max-sm:justify-start max-sm:gap-4">
+                <a href="https://www.facebook.com"><img src="assets/icon-facebook.png" alt="Facebook" class="h-10"></a>
+                <a href="https://www.Linkedin.com"><img src="assets/icon-linkedin.png" alt="Linkedin" class="h-10"></a>
+                <a href="https://www.Twitter.com"> <img src="assets/icon-twitter.png" alt="Twitter" class="h-8"></a>
+                <a href="https://www.youtube.com"><img src="assets/icon-youtube.png" alt="YouTube" class="h-10"></a>
+            </div>
+
+        </div>
+    </footer>
+
+    
 
 </body>
 
